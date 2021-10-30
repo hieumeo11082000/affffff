@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>  <title>
+             HARRY POTTER MOVIE
+        </title>
+        <meta charset="utf-8">
+                <style>     
+                *{
+                  margin: 0;
+                  padding: 0;
+                }   
+        body {           
+            background-size: cover;
+           margin: 0;
+        width: 1000px;
+        margin: auto;            
+          }
+        #menu {
+          width: 1000px;
+          height: 40px;
+          background:  rgba(17, 6, 6, 0.651);
+          margin: 0px auto;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #running{
+          background-color: rgba(17, 6, 6, 0.651);
+          display: block;
+        }
+           ul.root > li {
+             list-style: none;
+             float: left ;
+             position: relative;/*để đảm bảo cha luôn bao gồm con*/
+           }
+           ul.root > li > a{
+             text-decoration: none;
+             color: white;
+             padding: 0px 15px 0px 15px ;
+             line-height: 40px;
+           display: block; 
+           }
+           ul.root > li > a:hover{
+             background: rgb(158, 5, 5);
+              transition: ease-in 0.35s;
+              -moz-transition: ease-in 0.35s; /*thầy hỏi chỗ này lè -----------------------------------------------------------warning!*/
+            /* -webkit-transition: ease-in 0.35s;*/
+           }
+           ul.submenu {
+             width: 150px;
+             background: rgb(24, 24, 24);
+             min-height: 100px ;
+             display: none;/*ẩn khi vào trang*/
+             position: absolute;
+           }
+           ul.submenu li { list-style: none;}
+           ul.submenu li a {
+             color: white;
+             text-decoration: none;
+             display: block;
+             line-height: 40px ;
+             text-indent: 10px;
+           }
+           /*khi chuột đi qua mới hiện menu*/
+           ul.root > li:hover ul.submenu
+           {
+             display: block;
+            
+              transition: ease-out 0.35s;
+              -moz-transition: ease-out 0.35s;
+              -webkit-transition: ease-out 0.35s;
+           }
+           ul.submenu li a:hover{
+            background: rgb(158, 5, 5);
+              transition: ease-in 0.35s;
+              -moz-transition: ease-in 0.35s;
+              -webkit-transition: ease-in 0.35s;
+           }
+            
+
+.column {
+            float: left;
+            width: 40%;
+            padding: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+          }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#tieude {
+  color: rgb(175, 9, 9);
+}
+.noidung {
+ margin-left: 80px; 
+ color: rgb(175, 9, 9);
+ padding: 20px;
+}
+#noidungcon {
+  margin-left: 80px;
+  color:rgb(78, 77, 77);
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bottom
+{
+ width: 100%;
+ height: 3px;
+ background: grey;
+}
+
+    #footer {
+      background-color: grey;
+      height: 150px;
+    }
+    
+          #cottrai {
+    float: left;
+    color: white;
+    width: 33.33%;
+  margin-top: 40px  ;
+  margin-left: 30px;
+  height: fit-content;
+}
+#cotgiua {
+    float: left;
+    color: white;
+    width: 30%;
+  margin-top: 40px  ;
+  height: fit-content;
+}
+#cotphai {
+    float: left;
+    color: white;
+    width: 33.33%;
+  margin-top: 40px  ;
+  height: fit-content;
+}
+        </style>
+    </head>
+    <body>
+      
+      <marquee direction="left" id="running">
+        <p style="color: yellow; font-size: 16px; "> Harry Potter tái xuất sau 10 năm công chiếu. Phần 1 bắt đầu công chiếu từ ngày 19.3.2021 và phần 2 dự kiến trình làng hai tuần sau đó. 
+         <a href="./contact.harrypotter.html" style="color:white ;">Đặt vé ngay</a></p>
+       </marquee>
+
+      <div class="anhLogo"> 
+        <img src="./harrypotterlogo.jpg" style="width: 1000px;height: 150px; vertical-align: middle;"/>
+      </div>
+
+
+  <div id="menu">
+    <ul class="root">
+      <li><a href="./Baitaplon.html">HOME</a></li>
+      <li><a href="#">ABOUT</a>
+          <ul class="submenu">
+            <li><a href="./About.harrypotter.html">MAIN ACTORS</a></li>
+            <li><a href="#">OTHER SEASONS </a></li>
+          </ul>
+      </li>
+      <li><a href="#">CONTACT</a>
+        <ul class="submenu">
+          <li><a href="./contact.harrypotter.html">BUY TICKET</a></li>
+          <li><a href="#">NETFLIX </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">REVIEW</a>
+        <ul class="submenu">
+          <li><a href="#">TEASER</a></li>
+          <li><a href="#">TRAILER </a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+      
+
+      <div class="row">
+        <div class="column">
+            <img src="./harrypotter1.jpg" alt="harry.potterseason1" style="width:300px;height:400px; padding-left: 50px ;"/>            
+        </div>
+
+        <div class="column">
+            <h1 id="tieude">HARRY POTTER VÀ HÒN ĐÁ PHÙ THỦY</h1>
+           <p> <br>Năm: 2001 </br>
+         <br>   Ngày phát hành: 16/11/2001 </br>
+         <br> Thời lượng: 152 phút</br>
+         <br>  Chất lượng: Bản đẹp</br>
+         <br>  Độ phân giải: Full HD</br>
+         <br>  Ngôn ngữ: Phụ đề việt + Lồng tiếng việt</br>
+         <br>  Thể loại: Phim viễn tưởng, Phim phiêu lưu, Phim gia đình, Phim thuyết minh, Phim lẻ</br>
+         <br>  Công ty SX: Warner Bros., Heyday Films, 1492 Pictures</br>
+        </p>
+        </div>
+      </div>
+
+  <div id="bottom"> </div>
+    <div class="noidung" >
+        <h2><b>NỘI DUNG PHIM</b></h2></div>
+        <div id="noidungcon">
+             <p>
+        <i>
+        Harry Potter và Hòn Đá Phù Thủy là bộ phim đầu tiên trong series phim “Harry Potter” được xây dựng dựa trên tiểu thuyết của nhà văn J.K.Rowling. 
+        Nhân vật chính của phim, Harry Potter - một cậu bé 11 tuổi sau khi mồ côi cha mẹ đã bị gửi đến nhà dì dượng của mình, gia đình Dursley. 
+        Tuy nhiên, cậu bé bị ngược đãi và không hề biết về thân phận thực sự của mình.
+           </i> 
+        </p>
+           <br>   <p>
+                 <i>
+            Vào sinh nhật thứ 11 của Harry, một người lai khổng lồ là Rubeus Hagrid đã đến tìm cậu bé để đưa cậu về trường Pháp Thuật Hogwarts. 
+            Lúc này, Harry mới biết được mình là phù thủy và một phần câu chuyện về cha mẹ mình, những người đã bị Voldemort giết hại. 
+            Cùng với trí thông minh và lòng dũng cảm, cậu bé đã cùng những người bạn của mình khám phá những điều bí mật nguy hiểm về thế giới của phép thuật...
+            </i> </br>
+        </p>
+      </div>
+    
+    <div id="bottom"> </div>
+<div class="noidung">
+<h2 >
+ DIỄN VIÊN CHÍNH
+</h2>
+<br>
+<a href="./About.harrypotter.html" title="Alan Rickman"><img src="./albus.jpg" style="width:200px;height: 250px"/></a>
+<a href="./About.harrypotter.html" title="Daniel Radcliffe"><img src="./hary.jpg" style="width:200px;height:250px"/></a>
+<a href="./About.harrypotter.html" title="Emma Watson"> <img src="./emma.jpg" style="width:200px;height:250px"/></a>
+ <a href="./About.harrypotter.html" title="Rupert Grint"><img src="./ron.jpg" style="width:200px;height:250px"/></a>
+</br>
+ </div>
+    <footer id="footer">
+<div class="cot"> 
+  <div id="cottrai">
+  <BR>HARRY POTTER MOVIE </br>
+  @ Được thực hiện bởi Lieu Thu  
+  </p>
+  </div>
+    <div id="cotgiua">
+    <li><a href="#" style="color: white ;">Các chính sách hỗ trợ</a></li>
+    <li><a href="#" style="color: white ;">Điều khoản dịch vụ</a></li>
+    <li> <a href="#" style="color: white ;">Đối tác</a></li>
+    <li> <a href="#"style="color: white ;">Trợ giúp</a></li>
+    </div>
+
+  <div id="cotphai"> 
+    Giữ liên lạc
+    <li><a href="#"style="color: white ;"> Twitter</a></li>
+    <li><a href="#"style="color: white ;">Facebook</a></li>
+    <li> Hotline: 0923.610.732</li>
+  </div>
+  </div>
+
+    </footer>         
+              
+         </body>
+</html>

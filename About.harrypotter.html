@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MAIN ACTORS</title>
+    <meta charset="utf-8">
+                <style>     
+                *{
+                  margin: 0;
+                  padding: 0;
+                }   
+        body {           
+            background-size: cover;
+           margin: 0;
+        width: 1000px;
+        margin: auto;            
+          }
+        #menu {
+          width: 1000px;
+          height: 40px;
+          background:  rgba(17, 6, 6, 0.651);
+          margin: 0px auto;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #running{
+          background-color: rgba(17, 6, 6, 0.651);
+          display: block;
+        }
+           ul.root > li {
+             list-style: none;
+             float: left ;
+             position: relative;/*để đảm bảo cha luôn bao gồm con*/
+           }
+           ul.root > li > a{
+             text-decoration: none;
+             color: white;
+             padding: 0px 15px 0px 15px ;
+             line-height: 40px;
+           display: block; 
+           }
+           ul.root > li > a:hover{
+             background: rgb(158, 5, 5);
+              transition: ease-in 0.35s;
+              -moz-transition: ease-in 0.35s;
+              -webkit-transition: ease-in 0.35s;
+           }
+           ul.submenu {
+             width: 150px;
+             background: rgb(24, 24, 24);
+             min-height: 100px ;
+             display: none;/*ẩn khi vào trang*/
+             position: absolute;
+           }
+           ul.submenu li { list-style: none;}
+           ul.submenu li a {
+             color: white;
+             text-decoration: none;
+             display: block;
+             line-height: 40px ;
+             text-indent: 10px;
+           }
+           /*khi chuột đi qua mới hiện menu*/
+           ul.root > li:hover ul.submenu
+           {
+             display: block;
+            
+              transition: ease-out 0.35s;
+              -moz-transition: ease-out 0.35s;
+              -webkit-transition: ease-out 0.35s;
+           }
+           ul.submenu li a:hover{
+            background: rgb(158, 5, 5);
+              transition: ease-in 0.35s;
+              -moz-transition: ease-in 0.35s;
+              -webkit-transition: ease-in 0.35s;
+           }
+  #bottom
+{
+ width: 100%;
+ height: 2px;
+ background: grey;
+}
+
+.column {
+            float: left;
+            width: 40%;
+            padding: 15px;
+          }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+           #footer {
+      background-color: grey;
+      height: 150px;
+    }
+    
+          #cottrai {
+    float: left;
+    color: white;
+    width: 33.33%;
+  margin-top: 40px  ;
+  margin-left: 30px;
+  height: fit-content;
+}
+#cotgiua {
+    float: left;
+    color: white;
+    width: 30%;
+  margin-top: 40px  ;
+  height: fit-content;
+}
+#cotphai {
+    float: left;
+    color: white;
+    width: 33.33%;
+  margin-top: 40px  ;
+  height: fit-content;
+}
+
+
+            </style>
+  </head>
+  <body>
+    <marquee direction="left" id="running">
+      <p style="color: yellow; font-size: 16px; "> Harry Potter tái xuất sau 10 năm công chiếu. Phần 1 bắt đầu công chiếu từ ngày 19.3.2021 và phần 2 dự kiến trình làng hai tuần sau đó. 
+       <a href="./contact.harrypotter.html" style="color:white ;">Đặt vé ngay</a></p>
+     </marquee>
+
+    <div class="anhLogo"> 
+      <img src="./harrypotterlogo.jpg" style="width: 1000px;height: 150px; vertical-align: middle;"/>
+    </div>
+
+
+<div id="menu">
+  <ul class="root">
+    <li><a href="./Baitaplon.html">HOME</a></li>
+    <li><a href="#">ABOUT</a>
+        <ul class="submenu">
+          <li><a href="./About.harrypotter.html">MAIN ACTORS</a></li>
+          <li><a href="#">OTHER SEASONS </a></li>
+        </ul>
+    </li>
+    <li><a href="#">CONTACT</a>
+      <ul class="submenu">
+        <li><a href="./contact.harrypotter.html">BUY TICKET</a></li>
+        <li><a href="#">NETFLIX </a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">REVIEW</a>
+      <ul class="submenu">
+        <li><a href="#">TEASER</a></li>
+        <li><a href="#">TRAILER </a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<br><h2 style="color: chocolate; text-align: center;"> CÁC DIỄN VIÊN CHÍNH</h2> </br>
+
+<div class="row">
+  <div class="column">
+<img src="./albus.jpg" style="width:200px;height: 250px;padding-left: 100px;"/>
+  </div>
+  <div class="column">
+    <h3 style="color: chocolate;">Alan Rickman</h3>
+    <p>
+      Alan Sidney Patrick Rickman là một diễn viên người Anh. Ông là một diễn viên sân khấu vừa hiện đại và cổ điển, và là cựu thành viên của Royal Shakespeare Company. Vai diễn đột phá là vai Vicomte de Valmont trong Les liaisions dangereuses, và được đề cử giải giải thưởng Tony cho diễn viên kịch nam xuất sắc.
+    </p>
+
+  </div>
+</div>
+ 
+<div id="bottom"> </div>
+<div class="row">
+  <div class="column">
+<img src="./hary.jpg" style="width:200px;height: 250px;padding-left: 100px;">
+  </div>
+  <div class="column">
+ <h3 style="color: chocolate;">
+  Daniel Radcliffe
+ </h3>
+ <p>
+  Daniel Jacob Radcliffe là nam diễn viên người Anh, được biết đến nhiều nhất với vai diễn Harry Potter trong những bộ phim phỏng theo cuốn sách Harry Potter của J. K. Rowling, từng tham gia vở kịch gây nhiều tranh cãi Equus trong vai Alan Strang.
+ </p>
+  </div>
+</div>
+
+<div id="bottom"> </div>
+<div class="row">
+  <div class="column">
+<img src="./emma.jpg" style="width:200px;height: 250px;padding-left: 100px;">
+  </div>
+  <div class="column">
+    <h3 style="color: chocolate;">Emma Watson</h3>
+    <p>
+      Emma Charlotte Duerre Watson là một nữ diễn viên, người mẫu kiêm nhà hoạt động xã hội người Anh. Sinh ra ở Paris và lớn lên tại Oxfordshire, Emma theo học tại Trường Dragon và theo học khóa đào tạo diễn viên tại chi nhánh Oxford của trường Nghệ thuật Sân khấu Stagecoach
+    </p>
+  </div>
+</div>
+<div id="bottom"> </div>
+
+<div class="row">
+  <div class="column">
+<img src="./ron.jpg" style="width:200px;height: 250px;padding-left: 100px; ">
+  </div>
+  <div class="column">
+    <h3 style="color: chocolate;">Rupert Grint</h3>
+<p>
+  Rupert Alexander Lloyd Grint là một diễn viên nổi tiếng với vai Ronald Weasley trong loạt phim Harry Potter.
+</p>
+  </div>
+</div>
+
+<footer id="footer">
+  <div class="cot"> 
+    <div id="cottrai">
+    <BR>HARRY POTTER MOVIE </br>
+    @ Được thực hiện bởi Lieu Thu  
+    </p>
+    </div>
+      <div id="cotgiua">
+      <li><a href="#" style="color: white ;">Các chính sách hỗ trợ</a></li>
+      <li><a href="#" style="color: white ;">Điều khoản dịch vụ</a></li>
+      <li> <a href="#" style="color: white ;">Đối tác</a></li>
+      <li> <a href="#"style="color: white ;">Trợ giúp</a></li>
+      </div>
+  
+    <div id="cotphai"> 
+      Giữ liên lạc
+      <li><a href="#"style="color: white ;"> Twitter</a></li>
+      <li><a href="#"style="color: white ;">Facebook</a></li>
+      <li> Hotline: 0923.610.732</li>
+    </div>
+    </div>
+  
+      </footer>     
+  </body>
+</html>
